@@ -70,19 +70,19 @@ A shebang, also known as a hashbang or pound-bang, is a special character sequen
 For example, if the script is written in bash, the shebang would be `#!/bin/bash`.
 
 Here are a few key points about shebangs:
-    - **Interpreter Specification:** The shebang line is used to specify the interpreter for the script. It should immediately follow the `#!` characters and include the path to the interpreter binary.
-    - **Whitespace:** There should be no spaces or tabs between `#!` and the interpreter path. It must be a single line with no leading whitespace.
-    - **Arguments:** The shebang line can include arguments to the interpreter. These arguments are separated from the interpreter path by a space.
-    - **Multiple Arguments:** If there are multiple arguments, they should be separated by spaces.
-    - **Quoting:** If the interpreter path or arguments contain spaces, they should be quoted.
-    - **Comments:** Although not required, it's common practice to include a comment on the same line after the interpreter path to provide additional information or documentation about the script.
-    - **Linux/Unix Convention:** Shebangs are primarily used in Linux and Unix-like operating systems to indicate the interpreter for shell scripts, Python scripts, Perl scripts, and more.
-    - **Windows:** Shebangs are not used in Windows operating systems. Instead, the file extension (e.g., `.bat`, `.ps1`) is used to determine the interpreter for a script.
-    - **Permission:** To execute a script with a shebang, you'll also need to ensure that the script file has the execute permission (e.g., `chmod +x script.sh`).
+  - **Interpreter Specification:** The shebang line is used to specify the interpreter for the script. It should immediately follow the `#!` characters and include the path to the interpreter binary.
+  - **Whitespace:** There should be no spaces or tabs between `#!` and the interpreter path. It must be a single line with no leading whitespace.
+  - **Arguments:** The shebang line can include arguments to the interpreter. These arguments are separated from the interpreter path by a space.
+  - **Multiple Arguments:** If there are multiple arguments, they should be separated by spaces.
+  - **Quoting:** If the interpreter path or arguments contain spaces, they should be quoted.
+  - **Comments:** Although not required, it's common practice to include a comment on the same line after the interpreter path to provide additional information or documentation about the script.
+  - **Linux/Unix Convention:** Shebangs are primarily used in Linux and Unix-like operating systems to indicate the interpreter for shell scripts, Python scripts, Perl scripts, and more.
+  - **Windows:** Shebangs are not used in Windows operating systems. Instead, the file extension (e.g., `.bat`, `.ps1`) is used to determine the interpreter for a script.
+  - **Permission:** To execute a script with a shebang, you'll also need to ensure that the script file has the execute permission (e.g., `chmod +x script.sh`).
 
 ### The C compiling process
 The C compiling process is a multi-step process that involves preprocessing, compiling, assembling, and linking. The C compiler is responsible for performing all of these steps. The C compiler is a program that takes C source code as input and produces an executable program as output. The C compiler is usually called `gcc` or `clang`. The C compiler is usually installed by default on Linux and macOS operating systems. The C compiler can be installed on Windows operating systems by installing the GNU Compiler Collection (GCC).
-    1. preprocessing
-       - The C compiler first preprocesses the source code. This involves expanding macros, removing comments, and replacing header files with their contents.
-       - The C compiler then compiles the source code. This involves translating the source code into assembly language.
-       - The flags `-E` and can be used to perform preprocessing only.
+  - **preprocessing**
+    - The C compiler first preprocesses the source code. This involves expanding macros, removing comments, and replacing header files with their contents.
+    - The C compiler then compiles the source code. This involves translating the source code into assembly language.
+    - The flags `-E` and can be used to perform preprocessing only.
