@@ -85,4 +85,4 @@ The C compiling process is a multi-step process that involves preprocessing, com
   - **preprocessing**
     - The C compiler first preprocesses the source code. This involves expanding macros, removing comments, and replacing header files with their contents.
     - The C compiler then compiles the source code. This involves translating the source code into assembly language.
-    - The flags `-E` and can be used to perform preprocessing only.
+    - The flags `-E` and can be used to perform preprocessing only. This flag instructs the compiler to stop after preprocessing and save the preprocessed code to a file. For example: `gcc -E main.c -o main.i`
